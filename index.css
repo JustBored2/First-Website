@@ -1,0 +1,167 @@
+body {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top,
+.undertop {
+    background-color: #1F2937;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#headerlogo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 14px;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+.undertop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 30px;
+}
+
+.leftside,
+.leftside2 {
+    width: 450px;
+}
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    gap: 10px;
+}
+
+#maintext {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+
+#secondtext {
+    font-size: 20px;
+    color: #f9faf8;
+    font-weight: 400;
+}
+
+button {
+    width: 100px;
+    background-color: #3882F6;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.gearinfo {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+    padding: 24px;
+}
+
+.illustration-text-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding-bottom: 64px;
+}
+
+.Gear1,
+.Gear2,
+.Gear3,
+.Gear4 {
+    width: 150px;
+    text-align: center;
+}
+
+.pirat {
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.quoteonepiece {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 200px 350px;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.speaker {
+    font-weight: bold;
+    color: #1F2937;
+    margin-left: auto;
+}
+
+.actionbutton {
+    display: flex;
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.actionbuttoncontainer {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 5px;
+    width: 750px;
+    height: 50x;
+    color: white;
+    padding: 20px;
+}
+
+#summon {
+    color: #e5e7eb;
+    font-size: 12px;
+}
+
+#summon12 {
+    border: 1px solid white;
+    margin: 16px;
+    padding: 5px;
+}
+
+.floor {
+    display: flex;
+    background-color: #1F2937;
+    color: white;
+    padding: 28px;
+    justify-content: center;
+    align-items: center;
+}
+
+.word {
+    font-size: 16px;
+}
